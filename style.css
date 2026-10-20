@@ -4,8 +4,8 @@ body {
   color: #191970
 }
 
-kartu-profil {
-  width: 300px;
+.kartu-profil {
+  width: 300px; auto;
   margin: 50px auto;
   padding: 20x;
   background-color: white;
@@ -15,7 +15,7 @@ kartu-profil {
 }
 
 
-kartu-profil img {
-  width: 150px;
+.kartu-profil img {
+  width: 200px;
   border-radius: 50%;
 }
