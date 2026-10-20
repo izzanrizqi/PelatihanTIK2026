@@ -1,19 +1,24 @@
 body {
   background-color: #FFFFE0;
   font-family: Arial, sans-serif;
-  color: #191970
+  color: #191970; /* PERBAIKAN: Menambahkan titik koma di akhir baris */
 }
 
 .kartu-profil {
-  width: 300px;
+  /* PERBAIKAN: Menghapus kata 'auto' di bagian width */
+  width: 300px; 
   margin: 50px auto;
   padding: 20px;
   background-color: white;
+  
+  /* PERBAIKAN: Mengubah '15x' menjadi '15px' */
   border-radius: 15px;
+  
+  /* PERBAIKAN: Memperbaiki format rgba dari (0,0,0,0,1) menjadi rgba(0, 0, 0, 0.1) */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
   text-align: center;
 }
-
 
 .kartu-profil img {
   width: 200px;
